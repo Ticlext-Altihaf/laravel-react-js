@@ -2,10 +2,11 @@
 
 namespace App\Http\Controllers\Api;
 
-use App\Http\Controllers\Controller;
+
 use App\Models\LeaveActivitiesModel;
 use App\Models\LeaveRequestsModel;
 use Illuminate\Http\Request;
+use Illuminate\Routing\Controller;
 
 class LeaveHistoryController extends Controller
 {
