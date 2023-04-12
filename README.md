@@ -1,5 +1,5 @@
 
-
+![img.png](img.png)
 
 ```shell
 # Install laravel
@@ -13,7 +13,7 @@ npm install
 npm run build
 ```
 
-![img.png](img.png)
+
 
 ```apacheconf
 # XAMPP Apache Virtual Hosts
