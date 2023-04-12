@@ -50,3 +50,4 @@ npm run build
 - Password check are compared with Laravel Hash or plaintext because I don't know the hashed password of the `users` table.
 - Username are check against `nick_name` and `email` because `nick_name` is mostly null.
 - `LeaveRequestsModel` use where clause `user_outlet_id = user.id` because `users` table and `leave_requests` table are not related by any foreign key.
+- Using `users.extra_ot_handler` as role because column `users.role_id` are constrained.
